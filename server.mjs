@@ -10,7 +10,7 @@ const apiKey = process.env.NYT_API_KEY
 const nyTimesApi = 'https://api.nytimes.com/svc/search/v2/articlesearch.json'
 app.use(
     cors({
-        origin: "http://localhost:3000"
+        origin: "https://nytimes-frontend-kp7x.onrender.com"
     })
 )
 // API route
